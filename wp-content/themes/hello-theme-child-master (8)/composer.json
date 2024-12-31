@@ -1,0 +1,14 @@
+{
+    "name": "u898806121/mongodb-project",
+    "description": "MongoDB integration for WordPress child theme.",
+    "authors": [
+        {
+            "name": "hamy vosugh",
+            "email": "hamy.vosugh@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "mongodb/mongodb": "1.4.*"
+    }
+}
