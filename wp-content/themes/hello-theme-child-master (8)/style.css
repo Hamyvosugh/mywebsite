@@ -14,7 +14,7 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 
 /* Add your custom styles here */
 
-
+/*
 * {
     margin: 0;
     padding: 0;
@@ -25,27 +25,27 @@ html, body {
     height: 100%;
     background: #2e1f5c;
     background-image: 
-        /* Multiple overlapping corner effects */
+        /* Multiple overlapping corner effects 
         radial-gradient(circle at 0 0, rgba(19, 13, 43, 0.7) 0%, rgba(19, 13, 43, 0) 45%),
         radial-gradient(ellipse at 100% 0, rgba(19, 13, 43, 0.7) 0%, rgba(19, 13, 43, 0) 45%),
         radial-gradient(ellipse at 0 100%, rgba(19, 13, 43, 0.8) 0%, rgba(19, 13, 43, 0) 45%),
         radial-gradient(circle at 100% 100%, rgba(19, 13, 43, 0.6) 0%, rgba(19, 13, 43, 0) 45%),
         
-        /* Atmospheric effects */
+        /* Atmospheric effects 
         radial-gradient(ellipse at 50% 0%, rgba(114, 137, 255, 0.1) 0%, rgba(37, 29, 79, 0) 75%),
         radial-gradient(circle at 20% 0%, rgba(114, 137, 255, 0.05) 0%, rgba(37, 29, 79, 0) 50%),
         radial-gradient(circle at 80% 0%, rgba(114, 137, 255, 0.05) 0%, rgba(37, 29, 79, 0) 50%),
         
-        /* Bottom glows */
+        /* Bottom glows 
         radial-gradient(ellipse at 50% 100%, rgba(82, 127, 255, 0.25) 0%, rgba(37, 29, 79, 0) 75%),
         radial-gradient(circle at 30% 100%, rgba(82, 127, 255, 0.15) 0%, rgba(37, 29, 79, 0) 50%),
         radial-gradient(circle at 70% 100%, rgba(82, 127, 255, 0.15) 0%, rgba(37, 29, 79, 0) 50%),
         
-        /* Subtle color variations */
+        /* Subtle color variations 
         radial-gradient(circle at 40% 40%, rgba(114, 137, 255, 0.08) 0%, rgba(37, 29, 79, 0) 60%),
         radial-gradient(circle at 60% 60%, rgba(114, 137, 255, 0.08) 0%, rgba(37, 29, 79, 0) 60%),
         
-        /* Base gradients */
+        /* Base gradients 
         linear-gradient(180deg, 
             rgba(46, 31, 92, 0.95) 0%,
             rgba(46, 31, 92, 0.8) 20%,
@@ -59,12 +59,55 @@ html, body {
             rgba(46, 31, 92, 1) 100%
         ),
         
-        /* Deep space effect */
+        /* Deep space effect 
         radial-gradient(ellipse at center, 
             rgba(57, 73, 171, 0.2) 0%,
             rgba(46, 31, 92, 0.5) 60%,
             rgba(46, 31, 92, 0.1) 100%
         );
-    background-attachment: fixed; /* This will fix the background relative to the viewport */
-    background-size: cover; /* Ensures the background covers the entire element */
+    background-attachment: fixed; /* This will fix the background relative to the viewport 
+    background-size: cover; /* Ensures the background covers the entire element 
+}
+*/
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    background: linear-gradient(
+        135deg,
+        #f5f7fa 0%,
+        #e8ecf1 50%,
+        #f5f7fa 100%
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+.content {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+h1 {
+    margin: 0;
+    color: #090909;
+}
+
+
+/* hide titles */
+.copyright.show {
+    display: none !important;
+}
+.site-title.show {
+    display: none !important;
+}
+.page-header {
+    display: none !important;
+
 }
