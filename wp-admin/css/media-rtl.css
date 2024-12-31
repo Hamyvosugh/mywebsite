@@ -115,7 +115,7 @@
 
 .media-item .attachment-tools {
 	display: flex;
-	align-items: center;
+	  
 }
 
 .media-item .edit-attachment {
@@ -813,7 +813,7 @@ border color while dragging a file over the uploader drop area */
 
 .copy-to-clipboard-container {
 	display: flex;
-	align-items: center;
+	  
 	margin-top: 8px;
 	clear: both;
 }
@@ -1178,7 +1178,7 @@ border color while dragging a file over the uploader drop area */
 
 span.imgedit-scale-warn {
 	display: flex;
-	align-items: center;
+	  
 	margin: 4px;
 	gap: 4px;
 	color: #b32d2e;

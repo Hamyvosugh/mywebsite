@@ -163,9 +163,9 @@ class Settings_Footer extends Tab_Base {
 				'toggle' => false,
 				'default' => 'below',
 				'selectors_dictionary' => [
-					'before' => 'flex-direction: row-reverse; align-items: center;',
+					'before' => 'flex-direction: row-reverse;   ',
 					'below' => 'flex-direction: column; align-items: stretch;',
-					'after' => 'flex-direction: row; align-items: center;',
+					'after' => 'flex-direction: row;   ',
 				],
 				'condition' => [
 					'hello_footer_tagline_display' => 'yes',

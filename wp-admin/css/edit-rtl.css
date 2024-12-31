@@ -768,7 +768,7 @@ form#tags-filter {
 .privacy-settings-title-section,
 .health-check-title-section {
 	display: flex;
-	align-items: center;
+	  
 	 
 	clear: both;
 	padding-top: 8px;
@@ -867,7 +867,7 @@ form#tags-filter {
 	position: relative;
 	text-align: right;
 	width: 100%;
-	align-items: center;
+	  
 	justify-content: space-between;
 	-webkit-user-select: auto;
 	user-select: auto;

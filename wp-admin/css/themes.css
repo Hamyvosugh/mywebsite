@@ -26,7 +26,7 @@ body.js .theme-browser.search-loading {
 /* Search form */
 .themes-php .search-form {
 	display: inline-flex;
-	align-items: center;
+	  
 	position: relative;
 	top: 0;
 	gap: .5rem;
@@ -688,7 +688,7 @@ body.folded .theme-browser ~ .theme-overlay .theme-wrap {
 .theme-overlay .toggle-auto-update {
 	/* Better align spin icon and text. */
 	display: inline-flex;
-	align-items: center;
+	  
 	/* Prevents content after the auto-update toggler from jumping down and up. */
 	min-height: 20px; /* Same height as the spinning dashicon. */
 	vertical-align: top;
@@ -1082,7 +1082,7 @@ body.folded .theme-browser ~ .theme-overlay .theme-wrap {
 	margin: 30px auto;
 	display: inline-flex;
 	justify-content: space-between;
-	align-items: center;
+	  
 }
 
 .upload-theme .wp-upload-form input[type="file"],

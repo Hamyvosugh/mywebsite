@@ -565,7 +565,7 @@ body.trashing #publish-settings {
 	height: 100%;
 	padding: 10px 14px 11px 30px;
 	display: flex;
-	align-items: center;
+	  
 	box-sizing: border-box;
 }
 
@@ -2129,7 +2129,7 @@ p.customize-section-description {
 .customize-preview-header.themes-filter-bar,
 .customize-preview-header.themes-filter-bar .search-form {
 	display: flex;
-	align-items: center;
+	  
 	gap: 10px;
 	flex-wrap: wrap;
 }
@@ -2140,7 +2140,7 @@ p.customize-section-description {
 
 .customize-preview-header .filter-themes-wrapper {
 	display: grid;
-	align-items: center;
+	  
 	gap: 10px;
 	grid-template-columns: auto 1fr;
 }
@@ -2161,7 +2161,7 @@ p.customize-section-description {
 	margin: 0;
 	padding: 0;
 	display: flex;
-	align-items: center;
+	  
 	gap: 10px;
 }
 

@@ -1213,7 +1213,7 @@
 
 .mode-grid .attachments-browser .media-toolbar-primary {
 	display: flex;
-	align-items: center;
+	  
 	column-gap: .5rem;
 	margin: 11px 0;
 }
@@ -1281,7 +1281,7 @@
 	clear: both;
 	display: flex;
 	flex-wrap: wrap;
-	align-items: center;
+	  
 	 
 	padding: 1em 0;
 }
@@ -2500,7 +2500,7 @@
 	/* Reveal the menu toggle button. */
 	.wp-core-ui .media-frame:not(.hide-menu) .button.media-frame-menu-toggle {
 		display: inline-flex;
-		align-items: center;
+		  
 		position: absolute;
 		left: 50%;
 		transform: translateX(-50%);

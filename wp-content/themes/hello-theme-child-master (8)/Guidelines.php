@@ -220,7 +220,7 @@ get_header(); ?>
     border-radius: 4px;
     margin: 10px 0;
     display: flex;
-    align-items: center;
+      
      
     background: #f8f9fa;
     overflow: hidden;
@@ -497,7 +497,7 @@ jQuery(document).ready(function($) {
 
 .color-picker-wrapper {
     display: flex;
-    align-items: center;
+      
     gap: 10px;
     margin-top: 5px;
 }
@@ -561,7 +561,7 @@ jQuery(document).ready(function($) {
 .hero-content {
     flex: 1;
     display: flex;
-    align-items: center;
+      
      
     text-align: center;
     padding: 30px;
@@ -612,7 +612,7 @@ jQuery(document).ready(function($) {
     flex: 1;
     height: 120px;
     display: flex;
-    align-items: center;
+      
      
 }
 

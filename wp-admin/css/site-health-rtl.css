@@ -212,7 +212,7 @@ are styled in the Privacy section of edit.css */
 
 .site-health-copy-buttons .copy-button-wrapper {
 	display: inline-flex;
-	align-items: center;
+	  
 	margin: 0.5rem 0 1rem;
 }
 
@@ -241,7 +241,7 @@ are styled in the Privacy section of edit.css */
 .site-status-all-clear {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	  
 	 
 	text-align: center;
 	height: 100%;
@@ -306,7 +306,7 @@ are styled in the Privacy section of edit.css */
 	grid-template-columns: 1fr 2fr;
 	grid-auto-rows: minmax(64px, auto);
 	column-gap: 16px;
-	align-items: center;
+	  
 }
 #dashboard_site_health .site-health-progress-label {
 	margin-right: 0;

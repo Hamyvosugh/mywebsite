@@ -1095,7 +1095,7 @@ th.action-links {
 .wp-filter .search-form {
 	float: right;
 	display: flex;
-	align-items: center;
+	  
 	column-gap: .5rem;
 }
 
@@ -1113,7 +1113,7 @@ th.action-links {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	align-items: center;
+	  
 }
 
 .wp-filter .search-form.search-plugins {
@@ -1187,7 +1187,7 @@ th.action-links {
 
 .wp-filter .favorites-form .favorites-username {
 	display: flex;
-	align-items: center;
+	  
 	flex-wrap: wrap;
 	gap: 0.5rem;
 }
@@ -1326,7 +1326,7 @@ th.action-links {
 
 .filters-applied .filtered-by {
 	display: flex;
-	align-items: center;
+	  
 	flex-wrap: wrap;
 	gap: 10px;
 }
@@ -2156,7 +2156,7 @@ html.wp-toolbar {
 
 .postbox-header {
 	display: flex;
-	align-items: center;
+	  
 	justify-content: space-between;
 	border-bottom: 1px solid #c3c4c7;
 }
@@ -2166,7 +2166,7 @@ html.wp-toolbar {
 	/* Handle the alignment for the configurable dashboard widgets "Configure" edit-box link. */
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	  
 }
 
 .postbox-header .handle-actions {

@@ -23,7 +23,7 @@ if (session_status() === PHP_SESSION_NONE) {
             color: #fff;
             display: flex;
              
-            align-items: center;
+              
             height: 100vh;
             margin: 0;
         }
@@ -33,7 +33,7 @@ if (session_status() === PHP_SESSION_NONE) {
             border-radius: 10px;
             display: flex;
             flex-direction: column;
-            align-items: center;
+              
             line-height: 3px;
         }
         .maintenance-title {

@@ -968,7 +968,7 @@ tr.inline-edit-row td {
 .inline-edit-row .submit {
 	display: flex;
 	flex-wrap: wrap;
-	align-items: center;
+	  
 	clear: both;
 	margin: 0;
 	padding: 0.5em 0 1em;
@@ -1605,7 +1605,7 @@ div.action-links,
 }
 
 .plugin-card .plugin-dependency {
-	align-items: center;
+	  
 	display: flex;
 	flex-wrap: wrap;
 	margin-top: .5em;

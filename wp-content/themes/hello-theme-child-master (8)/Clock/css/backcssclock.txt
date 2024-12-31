@@ -82,7 +82,7 @@
     background-size: cover; /* Ensure the background image covers the entire clock */
     display: flex;
      
-    align-items: center;
+      
     margin-right: 10px; /* Small gap between clocks */
 }
 
@@ -97,7 +97,7 @@
     background-size: cover; /* Ensure the background image covers the entire clock */
     display: flex;
      
-    align-items: center;
+      
     margin-right: 10px; /* Small gap between clocks */
 }
 
