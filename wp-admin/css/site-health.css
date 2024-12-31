@@ -241,7 +241,7 @@ are styled in the Privacy section of edit.css */
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
+	 
 	text-align: center;
 	height: 100%;
 	width: 100%;

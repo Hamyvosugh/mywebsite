@@ -67,7 +67,7 @@ function hello_elementor_fail_load_admin_notice() {
 		.notice.hello-elementor-notice .hello-elementor-notice-aside {
 			display: flex;
 			align-items: start;
-			justify-content: center;
+			 
 			padding: 20px 10px;
 			background: rgba(215,43,63,0.04);
 		}

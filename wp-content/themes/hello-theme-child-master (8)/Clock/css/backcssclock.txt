@@ -81,7 +81,7 @@
     
     background-size: cover; /* Ensure the background image covers the entire clock */
     display: flex;
-    justify-content: center;
+     
     align-items: center;
     margin-right: 10px; /* Small gap between clocks */
 }
@@ -96,7 +96,7 @@
     background-image: var(--bg-int-dark) , var(--bg-int-light);   
     background-size: cover; /* Ensure the background image covers the entire clock */
     display: flex;
-    justify-content: center;
+     
     align-items: center;
     margin-right: 10px; /* Small gap between clocks */
 }

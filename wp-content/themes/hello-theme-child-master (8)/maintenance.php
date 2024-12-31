@@ -22,7 +22,7 @@ if (session_status() === PHP_SESSION_NONE) {
             background-color: #2e2d33;
             color: #fff;
             display: flex;
-            justify-content: center;
+             
             align-items: center;
             height: 100vh;
             margin: 0;

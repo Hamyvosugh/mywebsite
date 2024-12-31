@@ -3077,7 +3077,7 @@ class WP_Theme_JSON {
 
 		$css .= '.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }';
 		$css .= '.wp-site-blocks > .alignright { float: right; margin-left: 2em; }';
-		$css .= '.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }';
+		$css .= '.wp-site-blocks > .aligncenter {   margin-left: auto; margin-right: auto; }';
 
 		// Block gap styles will be output unless explicitly set to `null`. See static::PROTECTED_PROPERTIES.
 		if ( isset( $this->theme_json['settings']['spacing']['blockGap'] ) ) {

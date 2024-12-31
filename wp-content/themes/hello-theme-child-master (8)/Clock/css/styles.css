@@ -80,7 +80,7 @@ font-family: 'Poppins', sans-serif;
     background-image: var(--bg-local-dark); /* Background image for clocks */
     background-size: cover;
     display: flex;
-    justify-content: center;
+     
     align-items: center;
     margin-right: 10px;
 }

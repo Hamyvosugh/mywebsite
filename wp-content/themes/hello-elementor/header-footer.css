@@ -22,7 +22,7 @@
 .site-header .site-branding {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+   
   gap: 0.5rem;
 }
 .site-header .header-inner {
@@ -74,7 +74,7 @@
 .site-footer .site-branding {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+   
   gap: 0.5rem;
 }
 .site-footer .footer-inner {
@@ -134,7 +134,7 @@
     max-width: none;
   }
   .site-footer .footer-inner .site-navigation ul.menu {
-    justify-content: center;
+     
   }
   .site-footer .footer-inner .site-navigation ul.menu li {
     display: inline-block;
@@ -144,7 +144,7 @@
  * Navigation Menus
  */
 .site-header.header-stacked .site-navigation-toggle-holder {
-  justify-content: center;
+   
   max-width: 100%;
 }
 .site-header.menu-layout-dropdown .site-navigation {
@@ -159,7 +159,7 @@
 .site-navigation-toggle-holder .site-navigation-toggle {
   display: flex;
   align-items: center;
-  justify-content: center;
+   
   padding: 0.5rem;
   cursor: pointer;
   border: 0 solid;
@@ -218,7 +218,7 @@
   display: flex;
   content: "▾";
   font-size: 1.5em;
-  justify-content: center;
+   
   align-items: center;
   color: #666666;
   text-decoration: none;

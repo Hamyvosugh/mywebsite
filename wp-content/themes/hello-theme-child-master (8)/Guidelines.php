@@ -221,7 +221,7 @@ get_header(); ?>
     margin: 10px 0;
     display: flex;
     align-items: center;
-    justify-content: center;
+     
     background: #f8f9fa;
     overflow: hidden;
 }
@@ -543,7 +543,7 @@ jQuery(document).ready(function($) {
 
 .preview-menu ul {
     display: flex;
-    justify-content: center;
+     
     list-style: none;
     margin: 0;
     padding: 0;
@@ -562,7 +562,7 @@ jQuery(document).ready(function($) {
     flex: 1;
     display: flex;
     align-items: center;
-    justify-content: center;
+     
     text-align: center;
     padding: 30px;
 }
@@ -613,7 +613,7 @@ jQuery(document).ready(function($) {
     height: 120px;
     display: flex;
     align-items: center;
-    justify-content: center;
+     
 }
 
 .logo-placeholder {
