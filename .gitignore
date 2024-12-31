@@ -1,0 +1,57 @@
+# Ignore all log files
+*.log
+
+# Ignore temporary files
+tmp/
+
+# Ignore specific configuration files
+config.env
+wp-config.php
+
+# Ignore directories
+build/
+dist/
+out/
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/backups/
+wp-content/cache/
+wp-content/plugins/
+wp-content/mu-plugins/
+wp-content/themes/
+
+
+
+# Ignore files starting with temp
+temp*
+
+# Node modules
+node_modules/
+
+# Visual Studio Code settings
+.vscode/
+
+# Visual Studio temporary files, build results, etc.
+[Bb]in/
+[Oo]bj/
+*.user
+*.aps
+*.pch
+*.vs
+*.vsw
+*.suo
+*.tmp
+*.sdf
+*.pidb
+*.userprefs
+*.csproj.user
+*.cache
+*.dll
+*.exe
+*.pdb
+*.mdb
+
+# Ignore SQL and SQL dump files
+*.sql
+*.sql.gz
+*.dump
