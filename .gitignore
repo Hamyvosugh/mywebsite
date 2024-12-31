@@ -22,8 +22,6 @@ wp-content/mu-plugins/
 
 
 
-# Ignore files starting with temp
-temp*
 
 # Node modules
 node_modules/

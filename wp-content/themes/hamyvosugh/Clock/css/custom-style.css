@@ -1,0 +1,31 @@
+.custom-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fc3e3e;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.custom-title {
+    font-size: 12em;
+    color: #202020;
+    margin-bottom: 10px;
+}
+
+.custom-description {
+    font-size: 5.2em!important;
+    color: #ff0000 !important;
+}
+
+.multistep-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.517);
+    position: relative;
+    overflow: hidden;
+}
